@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+}
+
+.sos-btn {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(255, 71, 87, 0.6);
+    transition: transform 0.2s;
+}
+
+.sos-btn:active {
+    transform: scale(0.95);
+    background-color: #e84118;
+}
+
+#statusMsg {
+    margin-top: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
